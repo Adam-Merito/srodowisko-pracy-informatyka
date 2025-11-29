@@ -1,0 +1,4 @@
+Projekt dotyczy aplikacji pomagającej studentom organizować czas nauki i materiały. 
+Rozwiązuje problem chaotycznego planowania i trudności w śledzeniu postępów. 
+Aplikacja oferuje prosty harmonogram, priorytetyzację zadań i przypomnienia. 
+Ułatwia skupienie i lepsze zarządzanie obowiązkami na studiach.

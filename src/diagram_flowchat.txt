@@ -1,0 +1,40 @@
++--------------------------------+
+|            START               |
++--------------------------------+
+              |
+              v
++--------------------------------+
+| Inicjalizacja zasobów / env    |
++--------------------------------+
+              |
+              v
++--------------------------------+
+| Wczytaj konfigurację (config)  |
++--------------------------------+
+              |
+              v
+         +----------+
+         | Czy OK?  |
+         +---+------+ 
+             |yes
+      +------+------+
+      |             |
+      v             v
++----------------+  +---------------------+
+| Przetwarzanie  |  | Loguj błąd i exit   |
+| (główna logika)|  +---------------------+
++----------------+           |
+      |                      v
+      v                 +-----------+
++----------------+      |  END      |
+| Zapisz wynik   |      +-----------+
++----------------+         
+      |
+      v
++----------------+
+|     END        |
++----------------+
+
+Opcjonalne rozszerzenia:
+- Dodać kroki: walidacja wejścia, retry, backup wyników.
+- Do pliku JPG: użyj narzędzi typu draw.io, Graphviz (dot) lub ręcznie narysuj według powyższego schematu.
