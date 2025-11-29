@@ -38,3 +38,4 @@
 Opcjonalne rozszerzenia:
 - Dodać kroki: walidacja wejścia, retry, backup wyników.
 - Do pliku JPG: użyj narzędzi typu draw.io, Graphviz (dot) lub ręcznie narysuj według powyższego schematu.
+- Do rzeczy takich
