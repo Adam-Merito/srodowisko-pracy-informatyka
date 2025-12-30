@@ -1,60 +1,52 @@
-# Projekt: **HabitCraft** - Platforma mikro-nauki i śledzenia nawyków z elementami społeczności
+## i. inspiracje (słowa, skojarzenia, pomysły):
+- edukacja, mikro-nauka, grywalizacja
+- produktywność, rutyna, habit tracking
+- społeczność, współpraca, lokalne inicjatywy
+- zdrowie, well-being, przypomnienia
+- personalizacja, adaptacja, sztuczna inteligencja
+- minimalizm, przejrzystość, dostępność (accessibility)
+- IoT, integracje, automatyzacja
+- storytelling, wizualizacja danych, mapy myśli
+- prywatność, offline-first, bezpieczeństwo
+- retro UI / estetyka „analogowa” jako kontrast
 
-## 🎯 i. Inspiracje i koncepcja
+## ii. krótka lista elementów projektów:
+- interaktywny dashboard / pulpit użytkownika
+- rejestracja i profil (role: użytkownik, admin)
+- system tagów i kategorii
+- wyszukiwarka z filtrowaniem i sortowaniem
+- moduł rekomendacji (proste reguły lub ML)
+- powiadomienia (push, e‑mail)
+- tryb offline + synchronizacja
+- panel administracyjny i statystyki
+- eksport / import danych (CSV, JSON, PDF)
+- testy jednostkowe i CI/CD
 
-### Główne motywy:
-**Edukacja + Grywalizacja** → System "mikro-lekcji" (5-15 min dziennie) z odznakami  
-**Produktywność + Well-being** → Integracja trackerów nawyków z przypomnieniami zdrowotnymi  
-**Społeczność + Lokalność** → Grupy wsparcia, wyzwania sąsiedzkie, wymiana umiejętności  
-**AI + Personalizacja** → Adaptacyjne rekomendacje, inteligentne harmonogramy  
-**Minimalizm + Retro UI** → Estetyka analogowych notatników, wysoka dostępność  
-**Prywatność + Offline-first** → Dane lokalne, synchronizacja opcjonalna  
+## iii. wstępne dane wejściowe (np. lista kategorii, lista funkcji):
+Przykładowe kategorie:
+- Edukacja, Zdrowie, Produktywność, Hobby, Społeczność, Finanse, Rozrywka, IoT
 
-## 📋 ii. Elementy projektu
+## Przykładowe funkcje:
+- rejestracja/logowanie (email, OAuth)
+- tworzenie i edycja wpisów/projektów
+- tagowanie i kategoryzacja
+- wyszukiwanie pełnotekstowe
+- harmonogram z przypomnieniami
+- dashboard z wizualizacjami (wykresy)
+- integracja z kalendarzem / zewnętrzne API
+- ustawienia prywatności i eksport danych
 
-### Podstawowe moduły:
-1. **Dashboard główny** - wizualizacja postępów (kalendarz nawyków, wykresy)
-2. **Mikro-lekcje** - krótkie interaktywne moduły edukacyjne
-3. **Tracker nawyków** - dziennik z przypomnieniami
-4. **Mapa społeczności** - lokalne grupy/wydarzenia
-5. **Profil użytkownika** - statystyki, osiągnięcia
-6. **Panel administracyjny** - zarządzanie treścią, analityka
-7. **Tryb offline** - pełna funkcjonalność bez połączenia
-8. **Eksport danych** - raporty PDF/CSV
+## iv. lista źródeł pomysłu:
+- własna potrzeba / codzienny problem
+- rozmowa ze znajomym / feedback użytkownika
+- przypadkowe odkrycie / obserwacja zachowań
+- analiza trendów i artykułów branżowych
+- rozwiązania open-source i istniejące aplikacje
+- hackathony / prototypy eksperymentalne
+- badania UX / testy z użytkownikami
 
-## 🗂️ iii. Dane wejściowe MVP
-
-### Kategorie startowe (2 z 8):
-1. **Zdrowie** (well-being, fitness, mindfulness)
-2. **Edukacja** (języki, umiejętności miękkie, techniczne)
-
-### Podstawowe funkcje MVP:
-1. Rejestracja/logowanie (email + hasło)
-2. Dashboard z 3 widżetami:
-   - Kalendarz nawyków (heatmap)
-   - Dzisiejsze mikro-lekcje
-   - Statystyki tygodniowe
-3. System prostych nawyków (tak/nie) z przypomnieniami
-4. 5 starterowych mikro-lekcji (np. "5-min język angielski")
-
-## 🔍 iv. Źródła pomysłu
-
-| Źródło | Przykład |
-|--------|----------|
-| Własna potrzeba | Brak spójnej platformy łączącej naukę z nawykami |
-| Feedback użytkowników | "Chcę się uczyć, ale brakuje mi regularności" |
-| Analiza trendów | Rosnące zainteresowanie mikro-learningiem |
-| Istniejące rozwiązania | Połączenie Duolingo + Habitica + lokalne grupy |
-| Badania UX | Wysokie opuszczenie aplikacji po 2 tygodniach |
-
-## 🚀 Kolejne kroki (szybkie)
-
-### 1. Wybór MVP
-- **Kategorie**: Zdrowie + Edukacja
-- **Funkcje**: 
-  - Dashboard podstawowy
-  - 3 nawyki startowe (woda, ruch, nauka)
-  - 5 mikro-lekcji (2 zdrowie, 3 edukacja)
-  - Rejestracja + profil
-
-### 2. Wireframe dashboardu
+## Kolejne kroki (szybko):
+1. Wybrać 1–2 kluczowe kategorie i 3 podstawowe funkcje (MVP).
+2. Narysować prosty wireframe dashboardu.
+3. Zebrać feedback od 2–3 potencjalnych użytkowników.
+4. Zaimplementować minimalny backend + prosty frontend. 
